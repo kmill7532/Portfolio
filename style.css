@@ -1,0 +1,73 @@
+/*****
+
+COMMON
+
+****************/
+
+html{
+    background-color: lightgray;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: lightgray;
+}
+
+.font-primary {
+    color:darkcyan;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**********
+
+ABOUT
+
+
+**************/
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+#about img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 19px;
+}
+
+#about .vocation {
+    font-size: 17px;
+    color: darkslategrey;
+    margin-bottom: 10px;
+    
+}
+
+#about .skills {
+    font-size: 14px;
+    color: darkcyan;
+    margin-bottom: 10px;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+#about .icons a {
+    font-size: 30px;
+    margin-top: 15px;
+    color: darkcyan;
+}
+
