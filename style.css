@@ -23,6 +23,18 @@ body{
     font-weight: bold;
 }
 
+p {
+    font-size: 14px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: black !important;
+}
+
 /**********
 
 ABOUT
@@ -65,9 +77,29 @@ ABOUT
     font-size: 16px;
 }
 
-#about .icons a {
+
+#about .icons {
     font-size: 30px;
-    margin-top: 15px;
-    color: darkcyan;
+    padding-top: 15px;
+    color: darkcyan !important;
+
 }
 
+/**********
+Projects
+
+*************/
+
+#projects {
+    margin: 60px auto;
+    width: 80%; 
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card img {
+    width 100%;
+    
+}
